@@ -1,3 +1,5 @@
+# Higgs Boson Event Detection
+
 Particle colliders enable us to probe the fundamental nature of matter by observing
 exotic particles produced by high-energy collisions. Because the experimental
 measurements from these collisions are necessarily incomplete and imprecise,
@@ -10,3 +12,11 @@ to detect the decay of the Higgs boson to tau leptons on a dataset of 82 million
 simulated collision events. We demonstrate that deep neural network architectures
 are particularly well-suited for this task with the ability to automatically
 discover high-level features from the data and increase discovery significance.
+
+The goal of the Challenge is to improve the procedure that produces the selection region. We
+provide a training set with signal/background labels and with weights, a test set (without labels
+and weights), and a formal objective representing an approximation of the median significance
+(AMS) of the counting test. The objective is a function of the weights of selected events. We
+expect that significant improvements are possible by re-visiting some of the ad hoc choices in the
+standard procedure, or by incorporating the objective function or a surrogate into the classifier
+design.
